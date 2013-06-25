@@ -1,0 +1,10 @@
+---
+layout: post
+title: Use bigint for Flickr photo id's
+tags: []
+status: publish
+type: post
+published: true
+meta: {}
+---
+If you are using FlickrAPI and you are storing the photo id's in a MySQL database, make sure the column is a bigint :-) Flickr reached the integer limit (2147483647) today with <a href="http://www.flickr.com/photos/21817974@N03/2147483647/" title="Foto id 2147483647 ">this photo</a>.We've been bitten by this. We are using the Flickr API on the <a href="http://www.whatscookin.be" title="What&rsquo;s Cookin&rsquo;?">What's Cookin' website</a> and we were using signed MySQL integers, which overflowed today.

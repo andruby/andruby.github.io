@@ -1,0 +1,10 @@
+---
+layout: post
+title: ZFS on FreeBSD - caution when editing /etc/fstab
+tags: []
+status: publish
+type: post
+published: true
+meta: {}
+---
+<p><strong>Note to self:</strong></p><div>When adding a mountpoint to /etc/fstab on a ZFS on root FreeBSD system, add the option "late" or the system will fail to boot.&nbsp;<a href="http://forums.freebsd.org/showthread.php?t=7303">This forumpost</a>&nbsp;was enlightening.</div><p /><div>Using <a href="https://www.dan.me.uk/blog/2010/02/08/booting-from-zfs-raid0156-in-freebsd/">ZFS with GPT partitions</a> might be a good way to replace MBR for future installs.</div>

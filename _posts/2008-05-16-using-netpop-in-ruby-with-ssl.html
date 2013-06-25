@@ -1,0 +1,11 @@
+---
+layout: post
+title: Using net/pop in Ruby with ssl.
+tags:
+- ruby
+status: publish
+type: post
+published: true
+meta: {}
+---
+<p>If you follow <a href="http://blog.seagul.co.uk/articles/2006/10/24/connecting-to-gmail-with-ruby-or-connecting-to-pop3-servers-over-ssl-with-ruby">this blog post</a> by Chris Roos for connecting to Gmail&rsquo;s pop server with Ruby and encounter an error similar to this one: <em>NoMethodError: undefined method `set_params&rsquo; for #&lt;OpenSSL::SSL::SSLContext:0&times;50fc58&gt;</em></p><p>Here&rsquo;s the fix: You need an older version of Ruby 1.9&rsquo;s net/pop library. I found that the latest one working was revision 13778. <a href="http://svn.ruby-lang.org/cgi-bin/viewvc.cgi/tags/v1_9_0_0/lib/net/pop.rb?revision=13778&amp;view=markup">view it here</a>.</p><p>Hope this saves some time for a few people.</p>
