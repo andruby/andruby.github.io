@@ -1,1 +1,12 @@
+markdown: rdiscount
+pygments: true
 permalink: /:year/:month/:day/:title/
+rdiscount:
+  extensions: [smart]
+
+name: Andrew Fecheyr
+url: http://andrewsblog.org
+description: A fantastic blog that is fantastic.
+twitter: andruby
+github: andruby
+gravatar_url: http://gravatar.com/avatar/f82d5648a23607ee54ad2d56952e625a
