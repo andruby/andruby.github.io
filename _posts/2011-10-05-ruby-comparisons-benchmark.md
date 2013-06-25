@@ -10,7 +10,7 @@ meta: {}
 
 I recently had to make a huge loop faster (about 10 milllion iterations). The loop spent quite some time checking the state of an object, so I benchmarked some different comparisons in Ruby, on different ruby implementations (Rubinius 2.0.0 pre, MRI 1.9.2-p290 and REE-1.8.7)
 
-{% gist 1264985 comparison.rb %}
+{% gist 1264985 %}
 
 Conclusions:
 
