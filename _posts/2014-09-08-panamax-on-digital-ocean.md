@@ -56,17 +56,20 @@ I had good results running Stellard on Panamax with a 2GB Droplet.
 
 # Install panamax
 
-1. ssh into your droplet as user core: `ssh core@<your-droplet-public-ip>`
-2. download the panamax installer: `curl -O http://download.panamax.io/installer/pmx-installer-latest.zip`
-3. run the installer as root: `sudo ./coreos install --stable`
+1. ssh into your droplet as user core:<br>
+`ssh core@<your-droplet-public-ip>`
+2. download the panamax installer:<br>
+`curl -O http://download.panamax.io/installer/pmx-installer-latest.zip`
+3. run the installer as root:<br>
+`sudo ./coreos install --stable`
 
-When that finishes you can point your browser to &lt;your-droplet-public-ip&gt;:3000.
+When that finishes you can point your browser to &lt;your-droplet-public-ip&gt;:3000 and explore the panamax UI.
 
 # Bonus points: Stellard
 
 To test the panamax installation, we can install and run
 [stellard](https://www.stellar.org/) on your new panamax instance. 
-Go to the panamax UI at <your-droplet-public-ip:3000, 
+Go to the panamax UI at &lt;your-droplet-public-ip&gt;:3000,
 search for 'stellard' and click 'Run Template':
 
 ![Panamax Stellard](/images/panamax-stellard.png)
