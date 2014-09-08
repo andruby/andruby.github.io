@@ -74,7 +74,7 @@ search for 'stellard' and click 'Run Template':
 You can now query stellard with curl:
 
 ```
-curl -X POST https://<your-droplet-public-ip>:9002 -d '{ "method" : "ping" }'
+curl -X POST http://<your-droplet-public-ip>:9002 -d '{ "method" : "ping" }'
 ```
 
 Check the full [stellard api](https://www.stellar.org/api/) for more fun stuff you can do.
