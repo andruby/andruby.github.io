@@ -34,8 +34,6 @@ supports "User Data" (NYC3, SFO1, SGP1 or LON1 at the time of writing).
 Enter the following cloud config as User Data (replace the &lt;token&gt; with
 your unique discovery token from the previous step).
 
-Iets aan toevoeg.
-
 ```
 #cloud-config
 
