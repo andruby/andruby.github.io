@@ -11,7 +11,7 @@ meta: {}
 I should try this next time I face a novel problem that I don't
 know the solution for.
 
-From <a href="http://clojure.blip.tv/file/4457042/">Hammock Driven Development</a> by Rich Hickey (creator of Clojure).
+From <a href="https://www.youtube.com/watch?v=f84n5oFoZBc">Hammock Driven Development</a> by Rich Hickey (creator of Clojure).
 
 
 <img alt="Hammock-driven-dev" height="375" src="/images/hammock-driven-dev.png" width="500" />
